@@ -8,9 +8,9 @@ var Message = require('azure-iot-common').Message;
 var events = require('events');
 
 var eventEmitter = new events.EventEmitter();
-var connectionString = 'HostName=myPiIoTHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=jDMJzcnbfD7Yn60frypRW/R8uT4bEFZlZl0eoQlR+xk=';
+var connectionString = '[Your IoT hub connection string]';
 var client = Client.fromConnectionString(connectionString);
-var targetDevice = 'myPi';
+var targetDevice = '[Your deviceId]';
 
 function handler (req, res) {
     if (req.method == 'GET')
