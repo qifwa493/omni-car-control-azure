@@ -14,7 +14,7 @@ Copy and replace the the files to your website
 
 At last, the files in your website should be look like this:
 
-<img src="https://fitrbq.by3302.livefilestore.com/y3mVkqMUQTAJrl_S4k0if1reMrCw3naoSg9LFeWbEmo2wmk7I04wxoLOUzBXZLyiy5cocAaMgj3JK72JL_UxEnB90iflDlARG7Uke4viiNAS3GS5fawTMldcEN9huSgWpMj-WtLCbhN0bI1p5HUPPj4YZDg1rJ5rF92KY02NV5YB6I?width=191&height=297&cropmode=none" alt="server" width="191" height="297" />
+<img src="https://fitsbq.by3302.livefilestore.com/y3mO_PRkHMOmVZ4A8T3KznsZt3RqH15wf3uC4r2_-2tlFBthjQiCZqcuDhS--SyjZT3c8STrOzJUt5Gh0fHIOt1clu11c4dUsf6UodvsjQEzt16gyMF1Niz4ed1Y2P745E2XosigalS26c8XnwaTtuP6U9iOHPdtkb5sroz_wUf7Ng?width=193&height=455&cropmode=none" alt="server" width="193" height="455" />
 
 ##Step 4##
 Open the `server.js` file navigate to:
