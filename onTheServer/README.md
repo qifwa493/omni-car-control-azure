@@ -12,7 +12,7 @@ Unzip the `node_modules.rar` file to the root folder
 ##Step 3##
 Copy and replace the the files to your website
 
-At last, the files in your website should be look like this:
+At last, the files in your website should be look something like this:
 
 <img src="https://fitsbq.by3302.livefilestore.com/y3mO_PRkHMOmVZ4A8T3KznsZt3RqH15wf3uC4r2_-2tlFBthjQiCZqcuDhS--SyjZT3c8STrOzJUt5Gh0fHIOt1clu11c4dUsf6UodvsjQEzt16gyMF1Niz4ed1Y2P745E2XosigalS26c8XnwaTtuP6U9iOHPdtkb5sroz_wUf7Ng?width=193&height=455&cropmode=none" alt="server" width="193" height="455" />
 
