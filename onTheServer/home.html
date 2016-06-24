@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="theme-color" content="#4CAF50">
+	<title>Motor Control</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/public/w3.css">
+<link rel="stylesheet" href="/public/w3-theme-green.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<body style="max-width:600px">
+
+<style>
+	.button {
+		border: none;
+		color: white;
+		padding: 10px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	}
+    
+	.center {
+    text-align:center;
+    }
+     
+	.normal { background-color: #4CAF50; /*Green*/}
+	.special { background-color: #F44336; /*Red*/}
+	
+	.arial {
+		font-size: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+</style>
+
+<nav class="w3-sidenav w3-card-2 w3-white w3-top" style="width:50%;display:none;z-index:2" id="mySidenav">
+<div class="w3-container w3-theme-d2">
+  <span onclick="w3_close()" class="w3-closenav w3-right w3-xlarge">x</span>
+  <br>
+  <div class="w3-padding w3-center">
+	<h4>
+		Mode
+	</h4>
+  </div>
+</div>
+<br>
+<a class="arial" href="/adv_1.html">Control A</a>
+<a class="arial" href="/adv_2.html">Control B</a>
+<a class="arial" href="/adv.html">Advanced</a>
+<a class="arial" href="/single.html">Single</a>
+</nav>
+
+<header class="w3-container w3-card-4 w3-theme w3-top">
+  <h3>
+  <i class="w3-opennav fa fa-bars" onclick="w3_open()"></i>
+  Motor Control
+  </h3>
+</header>
+
+<div class="w3-container" style="margin-top:75px">
+<hr>
+	<p class="center">
+		<a class="arial">Choose the mode to control</a>
+	</p>
+	<hr>
+	<p class="center">
+		<a href="/adv_1.html" class="button normal">Control A</a>
+		<a href="/adv_2.html" class="button normal">Control B</a>
+	</p>
+	<p class="center">
+		<a href="/adv.html" class="button normal">Advanced</a>
+	</p>
+	<p class="center">
+		<a href="/single.html" class="button normal">Single</a>
+	</p>
+<hr>
+</div>
+
+
+
+<script>
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+</body>
+</html>
