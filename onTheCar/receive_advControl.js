@@ -4,7 +4,7 @@ var rpio = require("rpio");
 
 var intervalId = [,,,];
 var speed = 10;
-var lastCommand;
+var lastCommand = 'stop';
 var connectionString = 'HostName=myPiIoTHub.azure-devices.net;DeviceId=myPi;SharedAccessKey=X5uJf/+SYGPEA1Mlen5AwlclUBGr1Gnn1dXIZISZtCM=';
 
 rpio.open(31, rpio.OUTPUT, 0);
